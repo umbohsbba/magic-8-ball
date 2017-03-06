@@ -1,0 +1,52 @@
+.magic{
+	background-width: 100%;
+	background-color: black;
+	font-family:Zeyada;
+	color:#1f1f14;
+	font-weight: bolder;
+	font-size: 100px;
+	 background-image: linear-gradient(to right, black 0%,white 100%);
+	background-blend-mode: normal;
+    height: 200px;
+    text-align: center;
+ 
+    padding-top:25px;
+}
+body{
+     
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(to right, black 0%,white 100%);
+	background-blend-mode: normal;
+    height: 200px;
+}
+ button {
+  font-family:The+Girl+Next+Door;
+  font-size: 40px;
+color: black;
+ background-image: url(giphy.gif);
+ background-size: cover;
+ background-repeat: none;
+ height: 300px;
+ width: 300px;
+ border-radius: 50px;
+
+}
+
+
+
+div{
+	font-family:Zeyada;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  
+
+}
+p{
+   text-align: center;
+   color:black;
+   font-family:The+Girl+Next+Door;
+   font-size: 50px;
+}

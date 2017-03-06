@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="eightStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Cedarville+Cursive|Gloria+Hallelujah|Homemade+Apple|Marck+Script|Open+Sans|Over+the+Rainbow|Pacifico|Shadows+Into+Light|The+Girl+Next+Door|Waiting+for+the+Sunrise|Zeyada" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<title>Magic 8 ball</title>
+</head>
+     
+<body>
+<header class = "magic">Crazy 8 Ball</header>
+<div class="row">
+ <div class="one col-lg-4 col-md-6 col-sm-12"></div>
+<div class=" two col-lg-4 col-md-6 col-sm-12">ASK ME A QUESTION!!</div>
+<div class=" three col-lg-4 col-md-6 col-sm-12"></div>
+</div>
+
+
+<br>
+<p id="fortune"></p>
+
+<div class="row">
+ <div class="one col-lg-3 col-md-6 col-sm-12"></div>
+<div class=" two col-lg-6 col-md-6 col-sm-12"><a href="#"><button class id="fortuneButton">CLICK HERE!!!</button></a></div>
+<div class=" three col-lg-3 col-md-6 col-sm-12"></div>
+</div>
+
+
+
+
+ 
+
+
+
+
+
+
+<script type="text/javascript">
+var randomNumber = Math.floor(Math.random() * 6);
+var eightBall = '';
+switch(randomNumber) {
+case 1: 
+eightBall = "Shame on you for thinking this eight ball is psychic";
+break;
+case 2:
+eightBall = "Error 404, fortune not found.";
+break;
+case 3:
+eightBall = "Rizaelnig you nac raed this mepsislled fnurote wlil be the hgihgliht of yuor day."
+break;
+case 4:
+eightBall = "Your resemblance to a Muppet will prevent the world from taking you seriously"
+break;
+case 5:
+eightBall = "Don't sweat the petty things and don't pet the sweaty things."
+};
+
+
+	var $fortune = document.getElementById('fortune');
+	var $fortuneButton = document.getElementById('fortuneButton'); 
+    $fortuneButton.onclick = function(){
+    	$fortune.innerHTML = eightBall;
+    };
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
