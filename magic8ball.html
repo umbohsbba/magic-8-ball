@@ -14,7 +14,7 @@
 <header class = "magic">Crazy 8 Ball</header>
 <div class="row">
  <div class="one col-lg-4 col-md-6 col-sm-12"></div>
-<div class=" two col-lg-4 col-md-6 col-sm-12">ASK ME A QUESTION!!</div>
+<div class=" two col-lg-4 col-md-6 col-sm-12">I'm not your average magic eight ball. I can tell your fortune!</div>
 <div class=" three col-lg-4 col-md-6 col-sm-12"></div>
 </div>
 
@@ -39,7 +39,7 @@
 
 
 <script type="text/javascript">
-var randomNumber = Math.floor(Math.random() * 6);
+var randomNumber = Math.floor(Math.random() * 12);
 var eightBall = '';
 switch(randomNumber) {
 case 1: 
@@ -56,13 +56,35 @@ eightBall = "Your resemblance to a Muppet will prevent the world from taking you
 break;
 case 5:
 eightBall = "Don't sweat the petty things and don't pet the sweaty things."
+break;
+case 6:
+eightBall = "When in anger, sing the alphabet."
+break;
+case 7: 
+eightBall = "Love is on the horizon. He will be tall, dark and a centaur."
+break;
+case 8:
+eightball = "I cannot help you, for I am just an Eight Ball"
+break;
+case 9:
+eightBall = "Pigeon poop burns the retina for 13 hours. You will learn this the hard way."
+break;
+case 10:
+eightBall = "Only listen to the Eight Ball. Disregard all other fortune telling units."
+break;
+case 11:
+eightBall = "You will read this and say ' Golly gee, I could come up with better fortunes' "
 };
 
 
 	var $fortune = document.getElementById('fortune');
 	var $fortuneButton = document.getElementById('fortuneButton'); 
     $fortuneButton.onclick = function(){
+       setTimeout(function(){
+      location.reload();
+     },5000);
     	$fortune.innerHTML = eightBall;
+
     };
 
 

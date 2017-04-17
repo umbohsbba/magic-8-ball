@@ -4,7 +4,7 @@
 	font-family:Zeyada;
 	color:#1f1f14;
 	font-weight: bolder;
-	font-size: 100px;
+	font-size: 75px;
 	 background-image: linear-gradient(to right, black 0%,white 100%);
 	background-blend-mode: normal;
     height: 200px;
@@ -23,7 +23,7 @@ body{
  button {
   font-family:The+Girl+Next+Door;
   font-size: 40px;
-color: black;
+color: blue;
  background-image: url(giphy.gif);
  background-size: cover;
  background-repeat: none;
@@ -46,7 +46,7 @@ div{
 }
 p{
    text-align: center;
-   color:black;
+   color:blue;
    font-family:The+Girl+Next+Door;
    font-size: 50px;
 }
